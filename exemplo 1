@@ -1,0 +1,15 @@
+programa {
+
+  cadeia nome = "Luis"
+  inteiro idade = 16 
+  cadeia cidade = "mafra"
+
+  funcao inicio() {
+    escreva("Meu nome é  ",nome, "\n")
+    escreva("tenho " ,idade, " anos de idade.\n ")
+    escreva("Atualmente resido na cidade de ",cidade," ")
+
+
+
+  }
+}
