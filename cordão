@@ -1,0 +1,28 @@
+programa {
+  inteiro nym, n
+  funcao inicio() {
+
+    para(n = 5; n <= 20; n++)
+    escreva(n, ",")
+
+
+    se(n < 20)
+    escreva(n, ",")
+
+
+
+    senao 
+    escreva (n, ".")
+
+    contador++
+    senao
+    se(n < 20)
+    escreva(n, ",")
+    senao
+    escreva(n, ".")
+    contador++
+    
+
+    Util.aguarde(1000)
+  }
+}
